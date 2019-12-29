@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 100px;
+  /* background-color: blueviolet; */
+  /* background-image: url('https://image.shutterstock.com/image-photo/summer-beach-holiday-online-shopping-600w-461355724.jpg'); */
+  grid-gap: 30px 15px;
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc; /* Used if the image is unavailable */
+  /* height: 500px; You must set a specified height */
+}
+.grid-item {
+  padding: 1px;
+  background-color: darkgoldenrod;
+  border: 1px solid red;
+  text-align: center;
+  height: 200px;
+}
+.img-item {
+  height: 200px;
+}
+.item-desc {
+  border: 1px solid black;
+  text-align: center;
+}
